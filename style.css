@@ -162,6 +162,37 @@ button.sign-up {
     padding: 4px;
 }
 
+.section-three {
+    height: 300px;
+    color: #1F2937;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-three .container {
+    width: 600px;
+    align-items: center;
+}
+
+.quote {
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+}
+
+.attribute {
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: flex-end;
+    padding: 5px 
+}
+
 .footer {
     height: 72px;
     background: #1F2937;
