@@ -6,7 +6,7 @@ body {
     flex-direction: column;
   }
   
-  .header {
+.header {
     height: 20px;
     background: #1F2937;
     color: #F9FAF8;
@@ -20,11 +20,11 @@ body {
     justify-content: space-between;
   }
 
-  .logo {
+.logo {
     margin-left: 50px;
   }
 
-  .menu {
+.menu {
     display: flex;
     flex-direction: row;
     margin-right: 40px;
@@ -96,16 +96,72 @@ button {
     padding: 8px 16px;
     border-radius: 8px;
     width: 100px;
-  }
+}
   
-  button.sign-up {
+button.sign-up {
     background: royalblue;
     border: 1px solid royalblue;
     color: white;
     font-weight: bold;
-  }
+}
 
-  .footer {
+.section-two {
+    height: 300px;
+    color: #1F2937;
+    background: #F9FAF8;
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: start;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-right: 0;
+    flex-basis: auto;
+    padding: 20px;  
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+   
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+}
+
+.image {
+    background-color: gray;
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    border: 10px;
+    border-color: #1F2937;
+}
+
+.title-two {
+    font-size: 36px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.caption {
+    display: flex;
+    font-size: 12px;
+    font-weight: lighter;
+    justify-content: center;
+    text-align: center;
+    padding: 4px;
+}
+
+.footer {
     height: 72px;
     background: #1F2937;
     color:#E5E7EB;
@@ -114,5 +170,5 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
+}
 
