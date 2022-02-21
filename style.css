@@ -45,54 +45,43 @@ ul {
   list-style-type: none;
 }
 
-  .hero {
+.hero {
     height: 300px;
     background: #1F2937;
     color: #F9FAF8;
     font-size: 25px;
     font-weight: bolder;
     text-align: start;
-    padding: 20px 16px;
     justify-content: center;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     margin-right: 0;
-  }
-
-.hero-container {
-    display: flex;
-    flex-direction: row;
-    padding-right: 100px;
-    padding-left: 100px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    flex-basis: auto;
+    padding: 20px;
 }
 
 .hero-left {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     height: 200px;
-    width: 400px;
+    max-width: 600px;
+    flex: 1 1 400px;
+    margin: 20px 0px 20px 50px;
 }
 
 .hero-right {
     display: flex;
     height: 200px;
-    width: 400px;
-    background-color:#606e81;
-    font-size: 15px;
-    color: #E5E7EB;
-    font-weight: lighter;
-    justify-content: center;
-    align-items: center;
+    flex: 2 2 0;
+    max-width: 300px;
+    margin: 20px 50px 20px 0px;
 }
  
 .main-title {
     display: flex;
     font-size: 48px;
     color: #F9FAF8;
-    font-weight: bolder;
+    font-weight: bold;
 }
 
 .secondary-text {
@@ -100,7 +89,21 @@ ul {
     font-weight: lighter;
     font-size: 18px;
     color: #E5E7EB;
+    padding-right: 20px;
 }
+
+button {
+    padding: 8px 16px;
+    border-radius: 8px;
+    width: 100px;
+  }
+  
+  button.sign-up {
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+    font-weight: bold;
+  }
 
   .footer {
     height: 72px;
