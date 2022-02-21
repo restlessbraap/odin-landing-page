@@ -63,13 +63,45 @@ ul {
 .hero-container {
     display: flex;
     flex-direction: row;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
+
 .hero-left {
     display: flex;
     flex-direction: column;
+    height: 200px;
+    width: 400px;
 }
 
+.hero-right {
+    display: flex;
+    height: 200px;
+    width: 400px;
+    background-color:#606e81;
+    font-size: 15px;
+    color: #E5E7EB;
+    font-weight: lighter;
+    justify-content: center;
+    align-items: center;
+}
  
+.main-title {
+    display: flex;
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+.secondary-text {
+    display: flex;
+    font-weight: lighter;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
   .footer {
     height: 72px;
     background: #1F2937;
