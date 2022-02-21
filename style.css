@@ -136,9 +136,10 @@ button.sign-up {
     width: 120px;
 }
 
-.image {
-    background-color: gray;
-    width: 120px;
+.card img {
+    display: flex;
+    flex-direction: column;
+    
     height: 120px;
     border-radius: 10px;
     border: 10px;
