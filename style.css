@@ -203,7 +203,6 @@ button.sign-up {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 10px;
 }
 
 .section-four .container {
@@ -215,6 +214,7 @@ button.sign-up {
     flex-basis: auto;
     border-radius: 6px;
     height: 70px;
+    margin: 10px;
     padding: 20px 60px 20px 60px;
 }
 
